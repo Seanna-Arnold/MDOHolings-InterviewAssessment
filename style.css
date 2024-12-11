@@ -51,7 +51,7 @@ h2 {
     position: absolute;
     left: 0;
     top: 14px;
-    width: 2.5rem;
+    width: 2.5rem; /* the circle around the numbers*/
     height: 2.5rem;
     background-color: #e3f0c6;
     color: rgb(45, 157, 67);
@@ -103,7 +103,6 @@ h2 {
 .instructions ol li:last-child::after {
     display: none;
 }
-
 
 
 /*hero section css*/
