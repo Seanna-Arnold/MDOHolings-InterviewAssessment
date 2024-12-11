@@ -1,4 +1,4 @@
-/* General styling */
+/* General styling for steps*/
 .instructions {
     position: relative;
     display: flex;
@@ -45,7 +45,7 @@ h2 {
     }
 }
 
-
+/* Numbered Bullet Styling*/
 .instructions ol li::before {
     content: counter(step-counter);
     position: absolute;
@@ -76,7 +76,7 @@ h2 {
     }
 }
 
-/* This is the vertical line spacing and size */
+/* vertical line spacing and size */
 .instructions ol li::after {
     content: '';
     position: absolute;
@@ -86,7 +86,7 @@ h2 {
     height: calc(55% - .05rem); /* Leaving a gap above and below the line before to touches a bullet */
     background-color: black;
     opacity: 0;
-    animation: lineFadeIn 2s ease-out forwards; /* Animation for vertical line */
+    animation: lineFadeIn 2s ease-out forwards;
     animation-delay: .2s;
 }
 
